@@ -73,17 +73,18 @@ Vous pouvez me retrouver sur :
 - [WhatsApp Business]( https://wa.me/22948205611 )
 - [Email]( mailto:norbertaziamadjidev@gmail.com )
 
-(Tous les liens sont disponibles sur la page [Contact](contact.html) du site)
+(Tous les liens sont disponibles sur la page [Contact](https://norbertaziamadji.github.io/contact.html) du site)
 
 ---
 
 ## 📌 Version du site
 
-Version actuelle : **2.0.1**
+Version actuelle : **2.0.2**
 
 - **1.0.0** → Premières versions simples
 - **2.0.0** → Amélioration design, structure & responsive mobile
 - **2.0.1** → Ajout de sitemap.xml + meta robots + author + theme-color
+- **2.0.2** → Correction des liens
 
 ---
 
