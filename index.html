@@ -1,99 +1,154 @@
-<!-- S 13/12/25 à 16h 00min -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Norbert Aziamadji">
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#111">
-  <title>Norbert Aziamadji - Développeur Web & Étudiant en Cybersécurité</title>
-  <meta name="description" content="Freelance en développemnt web et en apprentissage cybersécurité. Je conçois des sites web simples, sécurisés et structurés, avec une approche sérieuse et progressive.">
+  <meta name="theme-color" content="#0a0a0f">
+  <title>Norbert Aziamadji | Développement web & Cybersécurité</title>
+  <meta name="description" content="Création de sites web clairs, fonctionnels et sécurisés. Accompagnement technique, rigueur, et apprentissage continu en cybersécurité.">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ==== HEADER ==== -->
 <header>
-  <nav class="container">
-    <h1 class="logo">Norbert Aziamadji</h1>
-
+  <div class="container">
+    <nav>
+      <div class="logo">Norbert Aziamadji</div>
       <ul class="nav-links">
         <li><a href="index.html" class="active">Accueil</a></li>
         <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projets</a></li>
         <li><a href="about.html">À propos</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-  </nav>
+    </nav>
+  </div>
 </header>
 
 <main>
-  <!-- ==== HERO ==== -->
-  <section class="hero-container">
-    <div class="intro-block">
-      <div class="profile-photo"><img src="profile.jpeg" alt="Photo de Norbert Aziamadji">
-      </div>
-
-      <div class="intro-text">
-        <h2>Développement web & Cybersécurité</h2>
-
-        <p>Je conçois des sites web simples et structurés, tout en me formant activement en cybersécurité avec une approche sérieuse et progressive.</p>
-
-        <a href="contact.html" class="btn">Me contacter</a>
+  <div class="container">
+    <!-- Hero section -->
+    <div class="hero-container">
+      <div class="intro-block">
+        <div class="profile-photo">
+          <img src="profile.jpeg" alt="Norbert Aziamadji">
+        </div>
+        <div class="intro-text">
+          <h2>Développement web <i class="fa-solid fa-code"></i> & Cybersécurité <i class="fa-solid fa-shield-haltered"></i></h2>
+          <p>Je conçois des <strong>sites web clairs, fonctionnels et sécurisés</strong>, adaptés aux besoins des particuliers et petites structures. En parallèle, je me forme rigoureusement en <strong>cybersécurité</strong> (Pentest, Linux, bonnes pratiques).</p>
+          <a href="contact.html" class="btn">Me contacter <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
       </div>
     </div>
-  </section>
 
-  <!-- ==== COMPÉTENCES ==== -->
-  <section class="skills container">
-    <h3>Compétences</h3>
+    <!-- Compétences -->
+    <section>
+      <h3 class="section-title">Compétences principales</h3>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Création de sites web</h3>
+          <p>HTML / CSS, bases JavaScript, responsive, performances et bonnes pratiques.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-shield-haltered"></i></div>
+          <h3>Cybersécurité (en apprentissage)</h3>
+          <p>Notions solides : Linux, réseau, sensibilisation, éthique.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-terminal"></i></div>
+          <h3>Environnements techniques</h3>
+          <p>Windows, Linux, Git, ligne de commande, veille active.</p>
+        </div>
+      </div>
+    </section>
 
-      <ul>
-        <li>Création de sites web ( HTML/CSS/bases en JS.)</li>
-        <li>Notions en cybersécurité</li>
-        <li>Environnements Linux & Windows</li>
-      </ul>
-  </section>
+    <!-- Aperçu projets -->
+    <section>
+      <h3 class="section-title">Aperçu des projets</h3>
+      <div class="card-grid">
+        <div class="card">
+          <div class="project-badge"><i class="fa-solid fa-check-circle"></i> Projet actif</div>
+          <h3>Weak Audio Tracker</h3>
+          <p>Analyseur audio portable pour bibliothèque musicale. Détection qualité, réparation, doublons.</p>
+          <div class="project-links">
+            <a href="https://github.com/norbertaziamadji/WeakAudioTracker" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="projects.html"><i class="fa-solid fa-arrow-right"></i> Détail</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-badge"><i class="fa-solid fa-sync-alt"></i> En cours</div>
+          <h3>Version Android</h3>
+          <p>Adaptation de Weak Audio Tracker pour Android. Beaucoup de demandes, en développement.</p>
+          <div class="project-links">
+            <a href="projects.html">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="project-badge"><i class="fa-solid fa-folder"></i> Réalisations</div>
+          <h3>Projets pour particuliers</h3>
+          <p>Sites vitrines et accompagnement technique pour petites structures.</p>
+        </div>
+      </div>
+      <div class="text-center" style="text-align: center; margin-top: 1rem;">
+        <a href="projects.html" class="btn-outline">Voir tous les projets <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
 
-  <!-- ==== SERVICES ==== -->
-  <section class="services container">
-    <h3>Ce que je propose</h3>
+    <!-- Ce que je propose -->
+    <section>
+      <h3 class="section-title">Ce que je propose</h3>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Sites web vitrines</h3>
+          <p>Design clair, navigation fluide, adapté aux besoins réels.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Accompagnement technique</h3>
+          <p>Aide au cadrage, conseils, orientation sécurisée.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-shield"></i></div>
+          <h3>Sensibilisation sécurité</h3>
+          <p>Bonnes pratiques pour éviter les failles courantes.</p>
+        </div>
+      </div>
+      <div style="margin-top: 1rem;">
+        <a href="services.html" class="btn-outline">Découvrir les services <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
 
-    <ul>
-      <li>Site web simple et clairs</li>
-      <li>Accompagnement digital</li>
-      <li>Sensibilisation à la sécurité informatique</li>
-    </ul>
+    <!-- CTA contact -->
+    <section class="cta-section">
+      <h3>Un projet ou une question ?</h3>
+      <p>Discutons-en simplement, sans engagement.</p>
+      <a href="contact.html" class="btn">Me contacter <i class="fa-solid fa-envelope"></i></a>
+    </section>
 
-    <a href="services.html" class="btn-outline">Voir mes services</a>
-  </section>
-
-  <!-- ==== CTA ==== -->
-  <section class="cta">
-    <div class="container">
-      <h3>Un projet ? Une question ?</h3>
-      <p>Discutons-en simplement.</p>
-      <a href="contact.html" class="btn">Contactez-moi</a>
+    <div class="disclaimer">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <strong>Je ne participe pas à des activités illégales, ni à des actions portant atteinte à la sécurité des systèmes.</strong> Transparence et éthique avant tout.
     </div>
-  </section>
+  </div>
 </main>
 
-<!-- ==== FOOTER ==== -->
 <footer>
   <div class="container">
     <p>&copy; 2025 - 2026 – Norbert Aziamadji</p>
     <p>Développeur web & Étudiant en Cybersécurité</p>
-  </div>
-
-  <!-- ==== VERSION ==== -->
-  <div class="version">
-    <span>Version 2.0.2 – Dernière mise à jour : 03/01/26</span>
+    <div class="version">Version 2.2.0 – Dernière mise à jour : 21/04/26</div>
   </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>

@@ -27,6 +27,7 @@ Le site est composé de plusieurs pages :
 
 - **Accueil** → présentation générale
 - **Services** → prestations proposées
+- **Projets** → Weak Audio Tracker et autres réalisations
 - **À propos** → mon parcours et ma vision
 - **Contact** → liens officiels et moyens de communication
 
@@ -54,7 +55,7 @@ Je ne propose **aucune activité illégale**, ni action portant atteinte à la s
 
 Le site a une approche orientée sécurité :
 
-- simplicité (surface d’attaque minimale)
+- simplicité (surface d'attaque minimale)
 - transparence
 - pas de collecte de données
 - pas de scripts non nécessaires
@@ -65,13 +66,13 @@ Le site a une approche orientée sécurité :
 
 Vous pouvez me retrouver sur :
 
-- [Facebook]( https://www.facebook.com/norbertaziamadji )
-- [Instagram]( https://www.instagram.com/norbertaziamadji9 )
-- [LinkedIn]( https://www.linkedin.com/in/norbert-aziamadji )
-- [GitHub]( https://github.com/norbertaziamadji )
-- [X]( https://x.com/NAziamadji )
-- [WhatsApp Business]( https://wa.me/22948205611 )
-- [Email]( mailto:norbertaziamadjidev@gmail.com )
+- [Facebook](https://www.facebook.com/norbertaziamadji)
+- [Instagram](https://www.instagram.com/norbertaziamadji9)
+- [LinkedIn](https://www.linkedin.com/in/norbert-aziamadji)
+- [GitHub](https://github.com/norbertaziamadji)
+- [X](https://x.com/NAziamadji)
+- [WhatsApp Business](https://wa.me/22948205611)
+- [Email](mailto:norbertaziamadjidev@gmail.com)
 
 (Tous les liens sont disponibles sur la page [Contact](https://norbertaziamadji.github.io/contact.html) du site)
 
@@ -79,28 +80,30 @@ Vous pouvez me retrouver sur :
 
 ## 📌 Version du site
 
-Version actuelle : **2.0.2**
+Version actuelle : **2.2.0**
 
 - **1.0.0** → Premières versions simples
 - **2.0.0** → Amélioration design, structure & responsive mobile
 - **2.0.1** → Ajout de sitemap.xml + meta robots + author + theme-color
 - **2.0.2** → Correction des liens
+- **2.1.0** → Design modernisé, aperçu projets, suppression des emojis
+- **2.2.0** → Suppression de certains thèmes, ajout page projets Weak Audio Tracker
 
 ---
 
 ## 📜 Licence
 
 Projet personnel — utilisation libre pour consultation.  
-Le contenu rédactionnel m’appartient.
+Le contenu rédactionnel m'appartient.
 
 ---
 
 ## 🤝 Remerciements
 
-Merci à toutes les personnes qui m’accompagnent dans mon apprentissage et ma progression professionnelle.
+Merci à toutes les personnes qui m'accompagnent dans mon apprentissage et ma progression professionnelle.
 
 ## 📅 Suivi du projet
 
 📌 Dépôt créé le : 13/12/2025  
 🛠️ Projet toujours en évolution  
-🕒 Dernière mise à jour : 03/01/26
+🕒 Dernière mise à jour : 21/04/26

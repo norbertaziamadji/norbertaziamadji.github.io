@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Norbert Aziamadji">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0a0a0f">
+  <title>Projets | Norbert Aziamadji - Weak Audio Tracker & Développement web</title>
+  <meta name="description" content="Weak Audio Tracker : analyseur audio portable. Détection qualité, réparation, doublons. Également des projets web pour particuliers.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">Norbert Aziamadji</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html" class="active">Projets</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <section class="page-header">
+      <h1><i class="fa-solid fa-diagram-project"></i> Mes projets</h1>
+      <p>Voici les projets sur lesquels je travaille. Certains sont publics, d'autres plus discrets.</p>
+    </section>
+
+    <!-- Projet principal : Weak Audio Tracker -->
+    <section>
+      <div class="project-main-card">
+        <div class="project-main-header">
+          <div class="project-logo-container">
+            <img src="assets/logo_projects/weak_audio_tracker_logo.png" alt="Weak Audio Tracker Logo" class="project-logo-img">
+          </div>
+          <div>
+            <h2>Weak Audio Tracker <span class="version-badge">v1.0</span></h2>
+            <div class="project-tags">
+              <span class="tag"><i class="fa-solid fa-microchip"></i> Windows</span>
+              <span class="tag"><i class="fa-solid fa-mobile-alt"></i> Android (en cours)</span>
+              <span class="tag"><i class="fa-solid fa-gem"></i> Gratuit</span>
+              <span class="tag"><i class="fa-solid fa-suitcase"></i> Portable</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="project-description">
+          <strong>Analyseur audio portable</strong> qui scanne, classe et nettoie votre bibliothèque musicale. 
+          Il détecte les fichiers de faible qualité (&lt;64 kbps), répare les fichiers corrompus, 
+          trouve les doublons et génère des rapports détaillés.
+        </p>
+
+        <h3><i class="fa-solid fa-list-check"></i> Fonctionnalités principales</h3>
+          <div class="feature-grid">
+            <div class="feature-item"><i class="fa-solid fa-folder-tree"></i> Scan récursif (MP3, M4A, FLAC, WAV, OGG, AAC...)</div>
+            <div class="feature-item"><i class="fa-solid fa-chart-simple"></i> Classification qualité (Bonne / Moyenne / Faible)</div>
+            <div class="feature-item"><i class="fa-solid fa-wrench"></i> Réparation automatique (~77% succès)</div>
+            <div class="feature-item"><i class="fa-solid fa-clone"></i> Détection des doublons (5 méthodes)</div>
+            <div class="feature-item"><i class="fa-solid fa-chart-line"></i> Graphiques et rapports HTML / CSV</div>
+            <div class="feature-item"><i class="fa-solid fa-broom"></i> Nettoyage en un clic</div>
+            <div class="feature-item"><i class="fa-solid fa-sun"></i> Interface moderne (mode clair/sombre)</div>
+            <div class="feature-item"><i class="fa-solid fa-chart-simple"></i> Télémétrie anonyme optionnelle</div>
+        </div>
+
+        <h3><i class="fa-solid fa-download"></i> Téléchargement</h3>
+        <div class="download-links">
+          <a href="https://github.com/norbertaziamadji/WeakAudioTracker" class="btn" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> Code source
+          </a>
+          <a href="https://github.com/norbertaziamadji/WeakAudioTracker/releases/download/v1.0/WeakAudioTracker_v1.0.zip" class="btn" target="_blank" rel="noopener">
+            <i class="fa-solid fa-download"></i> GitHub (ZIP)
+          </a>
+          <a href="https://drive.google.com/file/d/1IxjSJRpdWNtI7FiZz_eM8Me1SDczSt75/view" class="btn" target="_blank" rel="noopener">
+            <i class="fa-brands fa-google-drive"></i> Google Drive (miroir)
+          </a>
+          <a href="https://norbertaziamadji.github.io/weakaudiotracker-site/" class="btn-outline" target="_blank" rel="noopener">
+            <i class="fa-solid fa-globe"></i> Site officiel
+          </a>
+        </div>
+
+        <div class="project-note">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <strong>Version Android en préparation</strong> — beaucoup de demandes, je travaille dessus.
+        </div>
+      </div>
+    </section>
+
+    <!-- Projets pour particuliers -->
+    <section>
+      <h2><i class="fa-solid fa-folder-open"></i> Autres réalisations</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Sites web pour particuliers</h3>
+          <p>Réalisations web pour des particuliers et petites structures (sites vitrines, accompagnement technique).</p>
+          <p class="text-muted">Détails disponibles sur demande.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <h3>En conception</h3>
+          <p>De nouveaux projets sont en cours de réflexion. Les annonces viendront ici.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="disclaimer">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <strong>Je ne participe pas à des activités illégales, ni à des actions portant atteinte à la sécurité des systèmes.</strong>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 - 2026 – Norbert Aziamadji</p>
+    <p>Développeur web & Étudiant en Cybersécurité</p>
+    <div class="version">Version 2.2.0 – Dernière mise à jour : 21/04/26</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
