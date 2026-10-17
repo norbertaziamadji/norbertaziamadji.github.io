@@ -80,7 +80,7 @@ Vous pouvez me retrouver sur :
 
 ## 📌 Version du site
 
-Version actuelle : **2.2.0**
+Version actuelle : **2.3.0**
 
 - **1.0.0** → Premières versions simples
 - **2.0.0** → Amélioration design, structure & responsive mobile
@@ -88,6 +88,7 @@ Version actuelle : **2.2.0**
 - **2.0.2** → Correction des liens
 - **2.1.0** → Design modernisé, aperçu projets, suppression des emojis
 - **2.2.0** → Suppression de certains thèmes, ajout page projets Weak Audio Tracker
+- **2.3.0** → Ajout de Sonazia (Android) avec galerie de captures
 
 ---
 
@@ -106,4 +107,4 @@ Merci à toutes les personnes qui m'accompagnent dans mon apprentissage et ma pr
 
 📌 Dépôt créé le : 13/12/2025  
 🛠️ Projet toujours en évolution  
-🕒 Dernière mise à jour : 21/04/26
+🕒 Dernière mise à jour : 17/10/26

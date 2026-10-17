@@ -506,3 +506,49 @@ footer {
   object-fit: contain;
   display: block;
 }
+
+/* Galerie de captures (Sonazia) */
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.screenshot-item {
+  margin: 0;
+  text-align: center;
+}
+
+.screenshot-item img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #eef2f6;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  display: block;
+  transition: transform 0.2s;
+}
+
+.screenshot-item img:hover {
+  transform: translateY(-4px);
+}
+
+.screenshot-item figcaption {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .screenshot-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .screenshot-grid {
+    grid-template-columns: 1fr;
+  }
+}
