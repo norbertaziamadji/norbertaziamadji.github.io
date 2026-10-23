@@ -338,6 +338,10 @@ footer {
   background: #0a66c2;
   color: white;
 }
+.contact-links a.tiktok {
+  background: #000000;
+  color: white;
+}
 .contact-links a.github {
   background: #181717;
   color: white;
