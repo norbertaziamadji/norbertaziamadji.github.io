@@ -552,3 +552,122 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- NOUVEAUX STYLES POUR LA V3 (CYBERSÉCURITÉ) --- */
+
+/* Hero Section */
+.hero-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: #475569;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* Case Study (Étude de cas) */
+.case-study-section {
+  margin: 3rem 0;
+}
+
+.case-study-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.case-study-header {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 1rem;
+}
+
+.case-study-badge {
+  background: #fee2e2;
+  color: #b91c1c;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.8rem;
+  border-radius: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+.case-study-header h3 {
+  font-size: 1.5rem;
+  color: #0f172a;
+}
+
+.case-study-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.case-study-text p {
+  margin-bottom: 1rem;
+  color: #334155;
+  font-size: 1.05rem;
+}
+
+.case-study-text strong {
+  color: #0f172a;
+}
+
+/* Galerie verticale */
+.case-study-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.case-study-img {
+  margin: 0;
+  background: #f8fafc;
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+}
+
+.case-study-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.case-study-img figcaption {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-align: center;
+  margin-top: 0.8rem;
+  font-style: italic;
+}
+
+/* Ajustements Responsive (Mobile) */
+@media (min-width: 768px) {
+  .case-study-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .case-study-text {
+    flex: 1;
+  }
+  .case-study-gallery {
+    flex: 1;
+    margin-top: 0;
+  }
+}

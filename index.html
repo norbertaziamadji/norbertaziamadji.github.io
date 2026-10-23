@@ -6,8 +6,8 @@
   <meta name="author" content="Norbert Aziamadji">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0a0a0f">
-  <title>Norbert Aziamadji | Développement web & Cybersécurité</title>
-  <meta name="description" content="Création de sites web clairs, fonctionnels et sécurisés. Accompagnement technique, rigueur, et apprentissage continu en cybersécurité.">
+  <title>Norbert Aziamadji | Cybersécurité & Protection des PME</title>
+  <meta name="description" content="Étudiant en cybersécurité (L3). J'audite et je sécurise les sites web des PME et indépendants contre les piratages et le vol de données.">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,106 +34,108 @@
 
 <main>
   <div class="container">
-    <!-- Hero section -->
+    <!-- Hero Section orientée Cybersécurité -->
     <div class="hero-container">
       <div class="intro-block">
         <div class="profile-photo">
           <img src="profile.jpeg" alt="Norbert Aziamadji">
         </div>
         <div class="intro-text">
-          <h2>Développement web <i class="fa-solid fa-code"></i> & Cybersécurité <i class="fa-solid fa-shield-haltered"></i></h2>
-          <p>Je conçois des <strong>sites web clairs, fonctionnels et sécurisés</strong>, adaptés aux besoins des particuliers et petites structures. En parallèle, je me forme rigoureusement en <strong>cybersécurité</strong> (Pentest, Linux, bonnes pratiques).</p>
-          <a href="contact.html" class="btn">Me contacter <i class="fa-solid fa-arrow-right"></i></a>
+          <h1 class="hero-title">Je sécurise les sites web des PME et indépendants contre les piratages et le vol de données.</h1>
+          <p class="hero-subtitle">Étudiant en cybersécurité (L3) au Bénin. J'audite, je détecte les failles et je protège vos systèmes pour que vous puissiez exercer l'esprit tranquille.</p>
+          <a href="https://wa.me/22948205611" target="_blank" rel="noopener" class="btn">Discutons de votre projet <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
 
-    <!-- Compétences -->
+    <!-- SECTION SERVICES -->
     <section>
-      <h3 class="section-title">Compétences principales</h3>
+      <h2 class="section-title">Ce que je propose</h2>
       <div class="card-grid">
         <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
-          <h3>Création de sites web</h3>
-          <p>HTML / CSS, bases JavaScript, responsive, performances et bonnes pratiques.</p>
+          <div class="card-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+          <h3>Audit de Sécurité Express</h3>
+          <p>Vous avez un doute sur la sécurité de votre site ? Je scanne votre site, je détecte les failles critiques (injections, force brute) et je vous fournis un rapport clair avec les solutions à appliquer.</p>
         </div>
         <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-shield-haltered"></i></div>
-          <h3>Cybersécurité (en apprentissage)</h3>
-          <p>Notions solides : Linux, réseau, sensibilisation, éthique.</p>
+          <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Sécurisation & Protection</h3>
+          <p>Je bloque les attaques, je sécurise vos bases de données et je vous accompagne sur les bonnes pratiques pour protéger les données de vos clients.</p>
         </div>
         <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-terminal"></i></div>
-          <h3>Environnements techniques</h3>
-          <p>Windows, Linux, Git, ligne de commande, veille active.</p>
+          <div class="card-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+          <h3>Sensibilisation & Formation</h3>
+          <p>J'aide vos équipes à comprendre les risques numériques pour éviter les erreurs humaines (phishing, mots de passe faibles).</p>
         </div>
       </div>
     </section>
 
-    <!-- Aperçu projets -->
+    <!-- SECTION ÉTUDE DE CAS -->
+    <section class="case-study-section">
+      <h2 class="section-title">Études de cas & Démonstrations techniques</h2>
+      
+      <div class="case-study-card">
+        <div class="case-study-header">
+          <span class="case-study-badge">Démonstration 1</span>
+          <h3>Détection et blocage d'une attaque par force brute SSH</h3>
+        </div>
+        
+        <div class="case-study-content">
+          <div class="case-study-text">
+            <p><strong>Le problème :</strong> Un serveur Linux (Ubuntu) subit une attaque automatisée visant à deviner les mots de passe (attaque par force brute) via le protocole SSH.</p>
+            <p><strong>Mon action :</strong> J'ai utilisé l'outil Hydra pour simuler l'attaque et comprendre la méthode utilisée par les pirates (ici, un dictionnaire de mots de passe sur le compte "testuser").</p>
+            <p><strong>La solution :</strong> J'ai configuré un système de détection Wazuh pour surveiller les logs du serveur.</p>
+            <p><strong>Le résultat :</strong> Wazuh a immédiatement détecté les tentatives d'authentification échouées (règle 5760) et a levé une alerte critique de niveau 10 pour "tentative d'accès par force brute" (règle 5763). Le système est désormais capable d'alerter en temps réel et de bloquer l'attaquant.</p>
+          </div>
+
+          <!-- Galerie verticale des captures -->
+          <div class="case-study-gallery">
+            <figure class="case-study-img">
+              <img src="assets/security/hydra_terminal.png" alt="Terminal Hydra - Simulation d'attaque par force brute">
+              <figcaption>Simulation de l'attaque avec Hydra</figcaption>
+            </figure>
+            <figure class="case-study-img">
+              <img src="assets/security/wazuh_alertes.png" alt="Interface Wazuh - Alertes de sécurité">
+              <figcaption>Détection et alertes en temps réel sur Wazuh</figcaption>
+            </figure>
+            <figure class="case-study-img">
+              <img src="assets/security/wazuh_graphique.png" alt="Graphique Wazuh - Timeline des attaques">
+              <figcaption>Visualisation graphique des tentatives d'intrusion</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PROJETS TECHNIQUES -->
     <section>
-      <h3 class="section-title">Aperçu des projets</h3>
+      <h2 class="section-title">Projets techniques & R&D</h2>
       <div class="card-grid">
         <div class="card">
-          <div class="project-badge"><i class="fa-solid fa-check-circle"></i> Projet actif</div>
+          <div class="card-icon"><i class="fa-solid fa-desktop"></i></div>
           <h3>Weak Audio Tracker</h3>
-          <p>Analyseur audio portable pour bibliothèque musicale. Détection qualité, réparation, doublons.</p>
-          <div class="project-links">
-            <a href="https://github.com/norbertaziamadji/WeakAudioTracker" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            <a href="projects.html"><i class="fa-solid fa-arrow-right"></i> Détail</a>
-          </div>
+          <p>Analyseur audio portable pour bibliothèque musicale. Détection qualité, réparation, doublons. <a href="projects.html" class="btn">Voir le projet</a></p>
         </div>
         <div class="card">
-          <div class="project-badge"><i class="fa-solid fa-sync-alt"></i> En cours</div>
+          <div class="card-icon"><i class="fa-brands fa-android"></i></div>
           <h3>Sonazia (Android)</h3>
-            <p>Application Android complète : scan, nettoyage, doublons et lecteur audio intégré. Bientôt sur Play Store.</p>
-          <div class="project-links">
-            <a href="projects.html">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="project-badge"><i class="fa-solid fa-folder"></i> Réalisations</div>
-          <h3>Projets pour particuliers</h3>
-          <p>Sites vitrines et accompagnement technique pour petites structures.</p>
+          <p>Application Android complète : scan, nettoyage, doublons et lecteur audio intégré. <a href="projects.html" class="btn">Voir le projet</a></p>
         </div>
       </div>
-      <div class="text-center" style="text-align: center; margin-top: 1rem;">
-        <a href="projects.html" class="btn-outline">Voir tous les projets <i class="fa-solid fa-arrow-right"></i></a>
+      <div class="project-note" style="margin-top: 1.5rem;">
+        <i class="fa-solid fa-code"></i>
+        <p>Ces projets démontrent ma capacité à concevoir des applications complètes et à utiliser l'IA de manière productive. Cette rigueur technique est au service de la sécurité de vos systèmes.</p>
       </div>
     </section>
 
-    <!-- Ce que je propose -->
-    <section>
-      <h3 class="section-title">Ce que je propose</h3>
-      <div class="card-grid">
-        <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
-          <h3>Sites web vitrines</h3>
-          <p>Design clair, navigation fluide, adapté aux besoins réels.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
-          <h3>Accompagnement technique</h3>
-          <p>Aide au cadrage, conseils, orientation sécurisée.</p>
-        </div>
-        <div class="card">
-          <div class="card-icon"><i class="fa-solid fa-shield"></i></div>
-          <h3>Sensibilisation sécurité</h3>
-          <p>Bonnes pratiques pour éviter les failles courantes.</p>
-        </div>
-      </div>
-      <div style="margin-top: 1rem;">
-        <a href="services.html" class="btn-outline">Découvrir les services <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </section>
-
-    <!-- CTA contact -->
+    <!-- CTA Contact -->
     <section class="cta-section">
-      <h3>Un projet ou une question ?</h3>
-      <p>Discutons-en simplement, sans engagement.</p>
+      <h3>Prêt à sécuriser votre infrastructure ?</h3>
+      <p>Parlons de vos besoins et voyons comment je peux vous aider à dormir sur vos deux oreilles.</p>
       <a href="contact.html" class="btn">Me contacter <i class="fa-solid fa-envelope"></i></a>
     </section>
 
+    <!-- Disclaimer -->
     <div class="disclaimer">
       <i class="fa-solid fa-triangle-exclamation"></i>
       <strong>Je ne participe pas à des activités illégales, ni à des actions portant atteinte à la sécurité des systèmes.</strong> Transparence et éthique avant tout.
@@ -144,8 +146,8 @@
 <footer>
   <div class="container">
     <p>&copy; 2025 - 2026 – Norbert Aziamadji</p>
-    <p>Développeur web & Étudiant en Cybersécurité</p>
-    <div class="version">Version 2.3.0 – Dernière mise à jour : 17/10/26</div>
+    <p>Étudiant en Cybersécurité (L3) & Consultant Sécurité</p>
+    <div class="version">Version 3.0.0 – Dernière mise à jour : 23/10/26</div>
   </div>
 </footer>
 
